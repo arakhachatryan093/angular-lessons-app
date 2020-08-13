@@ -1,0 +1,35 @@
+
+<section class="mt-5 ">
+
+  <form class="form-inline mb-5 ml-auto mr-auto w-75">
+    <input
+      [ngClass]="{
+                'form-control': true,
+                'w-100': true
+            }"
+      type="search"
+      placeholder="Search"
+      aria-label="Search"
+      [ngModel]="searchText"
+      (ngModelChange)="searchProducts($event)"
+      [ngModelOptions]="{standalone: true}"
+    >
+  </form>
+
+  <div *ngIf="isLoading; else ProductsLists">
+    <app-loader></app-loader>
+  </div>
+  <ng-template #ProductsLists>
+  <div  class="d-flex justify-space-around flex-wrap">
+    <div *ngFor="let myProduct of products"
+         [class.active]="isSelected(myProduct)"
+         class="ml-auto mr-auto">
+      <app-product-row
+        [product]="myProduct"
+        (selectedProduct)="getSelectedProduct($event)"
+      >
+      </app-product-row>
+    </div>
+  </div>
+  </ng-template>
+</section>
