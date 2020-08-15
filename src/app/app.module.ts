@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
 import { ProductRowComponent } from './components/products-list/product-row/product-row.component'
 import {LoaderComponent} from './shared/components/loader/loader.component';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,9 @@ import {LoaderComponent} from './shared/components/loader/loader.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

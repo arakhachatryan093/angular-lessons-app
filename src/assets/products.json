@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title":"ULTRABOOST DNA PRIME SHOES",
+      "desctiption":"Created to break world marathon records, the Adizero Prime became the first adidas shoe made with adidas Primeknit.",
+      "price": "200",
+      "imgUrl":"https://assets.adidas.com/images/w_600,f_auto,q_auto/51abe5fdaeb64520bd38abbf00fe35c9_9366/Ultraboost_DNA_Prime_Shoes_Red_FV6053.jpg"
+
+    },
+    {
+      "id": 2,
+      "title":"ULTRABOOST DNA PRIME SHOES",
+      "desctiption":"Created to break world marathon records, the Adizero Prime became the first adidas shoe made with adidas Primeknit.",
+      "price": "400",
+      "imgUrl":"https://assets.adidas.com/images/w_600,f_auto,q_auto/51abe5fdaeb64520bd38abbf00fe35c9_9366/Ultraboost_DNA_Prime_Shoes_Red_FV6053.jpg"
+
+    },
+    {
+      "id": 3,
+      "title":"ULTRABOOST DNA PRIME SHOES",
+      "desctiption":"Created to break world marathon records, the Adizero Prime became the first adidas shoe made with adidas Primeknit.",
+      "price": "600",
+      "imgUrl":"https://assets.adidas.com/images/w_600,f_auto,q_auto/51abe5fdaeb64520bd38abbf00fe35c9_9366/Ultraboost_DNA_Prime_Shoes_Red_FV6053.jpg"
+
+    }
+  ]
+}
